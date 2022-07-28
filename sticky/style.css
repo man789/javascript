@@ -1,0 +1,56 @@
+nav  {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    width: 100%;
+    top:0;
+    left:0;
+    transition: all ease-in-out 0.8s;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.text {
+    margin: 50px 300px;
+}
+
+.disable  {
+   opacity: 0;
+}
+
+ul {
+    position: fixed;
+    background-color: aquamarine;
+    transition: all ease-in-out 0.8s;
+}
+
+header {
+    text-align: center;
+}
+
+.navigation {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    top:0;
+    left:0;
+    transition: all ease-in-out 0.8s;
+}
+
+.navigation  a {
+    text-decoration: none;
+    color:white;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.sticky {
+    position: fixed;
+}

@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.burger{        
+    width: 200px;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 50px 0;
+    position: relative;
+}
+
+.hide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: 50px 0;
+    position: relative;
+    left: -350px;
+}
+
+.active{
+    left: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.menu{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hide-menu{
+    opacity: 0;
+    display: none;
+
+}
+
+.menu span{
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+
+.cross{
+color: white;
+position: absolute;
+opacity: 0;
+display: none;
+cursor: pointer;
+}
+
+.cross-active{
+    opacity: 1;
+    display: block;
+}

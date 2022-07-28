@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="gender.css">
+    <title>Gender</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1><i class="fa fa-female" aria-hidden="true"></i></i>Guess my gender<i class="fa fa-male"
+                aria-hidden="true"></i></h1>
+        <hr>
+        <div class="input">
+            <input id="prenom" type="text"><button onclick="guessGender()"> Entrez nom </button>
+            <div class="reponse">
+                <div id="nom"></div>
+                <div class="pourcent"></div>
+                <div class="gender"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="gender.js"></script>
+</body>
+
+</html>
